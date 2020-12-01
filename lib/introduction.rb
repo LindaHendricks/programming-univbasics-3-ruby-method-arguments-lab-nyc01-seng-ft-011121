@@ -1,21 +1,17 @@
-def introduction name 
-  puts "hi, my name is #{name}"
+def introduction (name) 
+  puts "hi, my name is #{name}."
 end
 
-intruduction "linda"
 
-def introduction_with_language name language
+def introduction_with_language (name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-introduction_with_language "linda" "Ruby"
 
-
-def introduction_with_language_optional name language = "Ruby"
+def introduction_with_language_optional (name, language = "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-introduction_with_language_optional "linda"
 
 
 
